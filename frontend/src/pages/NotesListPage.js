@@ -32,7 +32,6 @@ export const NotesListPage = () => {
           {notes.map((note,index)=>(
             //rendering data
             <div><h2>{note.body}</h2><p>{note.created}</p></div>
-            
           ))}
         </div>
     </div>
